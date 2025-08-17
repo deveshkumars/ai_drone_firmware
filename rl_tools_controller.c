@@ -550,7 +550,7 @@ void controllerOutOfTree(control_t *control, setpoint_t *setpoint, const sensorD
         DEBUG_PRINT("action_output[1]: %f\n", action_output[1]);
         DEBUG_PRINT("action_output[2]: %f\n", action_output[2]);
         DEBUG_PRINT("action_output[3]: %f\n", action_output[3]);
-        DEBUG_PRINT("ya boi really did something\n");
+        DEBUG_PRINT("The controller is working\n");
       }
       else {
         action_output[0] = -0.8;
